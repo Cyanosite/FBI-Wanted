@@ -1,0 +1,17 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FBIWanted" parent="Theme.MaterialComponents.Light">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#004791</item>
+        <item name="colorSecondary">#FFD61A</item>
+        <item name="colorAccent">#CF093F</item>
+        <item name="actionBarTheme">@style/toolbar_style</item>
+    </style>
+
+    <style name="Theme.FBIWanted" parent="Base.Theme.FBIWanted" />
+
+    <style name="toolbar_style">
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+</resources>

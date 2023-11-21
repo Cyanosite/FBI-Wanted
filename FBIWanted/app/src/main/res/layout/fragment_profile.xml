@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="16dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ivPicture"
+            android:layout_width="135dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
+            app:strokeColor="@color/black"
+            app:strokeWidth="2dp" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="@dimen/profile_fragment_text_size"
+            tools:text="Name" />
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="@dimen/profile_fragment_table_padding">
+
+            <TextView
+                android:layout_width="@dimen/profile_fragment_first_column_width"
+                android:text="@string/subject"
+                android:textSize="@dimen/profile_fragment_text_size" />
+
+            <TextView
+                android:id="@+id/tvSubject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/subject_value"
+                android:textSize="@dimen/profile_fragment_text_size"
+                tools:text="Subject" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="@dimen/profile_fragment_table_padding">
+
+            <TextView
+                android:layout_width="@dimen/profile_fragment_first_column_width"
+                android:text="@string/age"
+                android:textSize="@dimen/profile_fragment_text_size" />
+
+            <TextView
+                android:id="@+id/tvAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/profile_fragment_text_size"
+                tools:text="Age" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="@dimen/profile_fragment_table_padding">
+
+            <TextView
+                android:layout_width="@dimen/profile_fragment_first_column_width"
+                android:text="@string/weight"
+                android:textSize="@dimen/profile_fragment_text_size" />
+
+            <TextView
+                android:id="@+id/tvWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/profile_fragment_text_size"
+                tools:text="Weight" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="@dimen/profile_fragment_table_padding">
+
+            <TextView
+                android:layout_width="@dimen/profile_fragment_first_column_width"
+                android:text="@string/eyes"
+                android:textSize="@dimen/profile_fragment_text_size" />
+
+            <TextView
+                android:id="@+id/tvEyes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/eyes_value"
+                android:textSize="@dimen/profile_fragment_text_size"
+                tools:text="Eyes" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="@dimen/profile_fragment_table_padding">
+
+            <TextView
+                android:layout_width="@dimen/profile_fragment_first_column_width"
+                android:text="@string/hair"
+                android:textSize="@dimen/profile_fragment_text_size" />
+
+            <TextView
+                android:id="@+id/tvHair"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hair_value"
+                android:textSize="@dimen/profile_fragment_text_size"
+                tools:text="Hair" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="@dimen/profile_fragment_table_padding">
+
+            <TextView
+                android:layout_width="@dimen/profile_fragment_first_column_width"
+                android:text="@string/build"
+                android:textSize="@dimen/profile_fragment_text_size" />
+
+            <TextView
+                android:id="@+id/tvBuild"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/build_value"
+                android:textSize="@dimen/profile_fragment_text_size"
+                tools:text="Build" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="@dimen/profile_fragment_table_padding">
+
+            <TextView
+                android:layout_width="@dimen/profile_fragment_first_column_width"
+                android:text="@string/sex"
+                android:textSize="@dimen/profile_fragment_text_size" />
+
+            <TextView
+                android:id="@+id/tvSex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sex_value"
+                android:textSize="@dimen/profile_fragment_text_size"
+                tools:text="Sex" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="@dimen/profile_fragment_table_padding">
+
+            <TextView
+                android:layout_width="@dimen/profile_fragment_first_column_width"
+                android:text="@string/race"
+                android:textSize="@dimen/profile_fragment_text_size" />
+
+            <TextView
+                android:id="@+id/tvRace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/race_value"
+                android:textSize="@dimen/profile_fragment_text_size"
+                tools:text="Race" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="@dimen/profile_fragment_table_padding">
+
+            <TextView
+                android:layout_width="@dimen/profile_fragment_first_column_width"
+                android:text="@string/nationality"
+                android:textSize="@dimen/profile_fragment_text_size" />
+
+            <TextView
+                android:id="@+id/tvNationality"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nationality_value"
+                android:textSize="@dimen/profile_fragment_text_size"
+                tools:text="Nationality" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="@dimen/profile_fragment_table_padding">
+
+            <TextView
+                android:layout_width="@dimen/profile_fragment_first_column_width"
+                android:text="@string/reward"
+                android:textSize="@dimen/profile_fragment_text_size" />
+
+            <TextView
+                android:id="@+id/tvReward"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/reward_value"
+                android:textSize="@dimen/profile_fragment_text_size"
+                tools:text="Reward" />
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>

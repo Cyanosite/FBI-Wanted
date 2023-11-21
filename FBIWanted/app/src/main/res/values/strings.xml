@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">FBI Wanted</string>
+    <string name="wanted_person">Wanted: %s</string>
+    <string name="subject_value">none</string>
+    <string name="eyes_value">unknown</string>
+    <string name="hair_value">unknown</string>
+    <string name="build_value">unknown</string>
+    <string name="sex_value">unknown</string>
+    <string name="race_value">unknown</string>
+    <string name="nationality_value">unknown</string>
+    <string name="reward_value">none</string>
+    <string name="subject">Subject</string>
+    <string name="age">Age</string>
+    <string name="weight">Weight</string>
+    <string name="eyes">Eyes</string>
+    <string name="hair">Hair</string>
+    <string name="build">Build</string>
+    <string name="sex">Sex</string>
+    <string name="race">Race</string>
+    <string name="nationality">Nationality</string>
+    <string name="reward">Reward</string>
+</resources>

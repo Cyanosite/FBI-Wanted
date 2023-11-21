@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="profile_fragment_table_padding">12dp</dimen>
+    <dimen name="profile_fragment_text_size">18sp</dimen>
+    <dimen name="profile_fragment_first_column_width">100dp</dimen>
+</resources>
